@@ -1,0 +1,29 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - master
+        
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    
+    steps:
+    - uses: actions/checkout@master
+      
+    - name: Build the site
+      run: | 
+        pipenv install
+        pipenv run mkdocs build --clean
+      
+    - name: Deploy
+      uses: ./
+      
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        source: "./site"
+        target: ${{ secrets.LOCATION }}
