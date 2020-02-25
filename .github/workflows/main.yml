@@ -4,24 +4,15 @@ on:
   push:
     branches:
       - master
-        
-jobs:
+jobs:       
   build:
-    runs-on: ubuntu-18.04
-    
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-      
-    - name: Build the site
-      run: echo "Building a site"
-
-    - name: Deploy
-      uses: ./
-      
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        port: ${{ secrets.PORT }}
-        source: "./docs"
-        target: ${{ secrets.LOCATION }}
+      - name: Copy demo
+        uses: garygrossgarten/github-action-scp@release 
+        with:
+          local: ./docs
+          remote: ${{ secrets.LOCATION }}
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.PASSWORD }}
