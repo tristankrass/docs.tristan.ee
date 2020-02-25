@@ -13,8 +13,8 @@ jobs:
     - uses: actions/checkout@master
       
     - name: Build the site
-    
-      
+      run: echo "Building a site"
+
     - name: Deploy
       uses: ./
       
