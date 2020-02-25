@@ -13,9 +13,7 @@ jobs:
     - uses: actions/checkout@master
       
     - name: Build the site
-      run: | 
-        pipenv install
-        pipenv run mkdocs build --clean
+    
       
     - name: Deploy
       uses: ./
@@ -25,5 +23,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        source: "./site"
+        source: "./docs"
         target: ${{ secrets.LOCATION }}
