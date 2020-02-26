@@ -9,11 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deployment
-        uses: horochx/deploy-via-scp@v1.0.1
+        uses: appleboy/scp-action@master
+        env:
+          HOST: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PORT: ${{ secrets.PORT }}
+          KEY: ${{ secrets.A }}
         with:
-          local: ./docs 
-          remote: ${{ secrets.LOCATION }}
-          host: ${{ secrets.HOST }} 
-          port: ${{ secrets.PORT }} 
-          user: ${{ secrets.USERNAME }} 
-          key: ${{ secrets.A }} 
+          source: ./docs 
+          target: ${{ secrets.LOCATION }}
