@@ -9,9 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deployment
-        uses: garygrossgarten/github-action-scp@release
+        uses: horochx/deploy-via-scp@v1.0.1
         with:
-          local: ./docs
+          local: ./docs 
           remote: ${{ secrets.LOCATION }}
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          host: ${{ secrets.HOST }} 
+          port: ${{ secrets.PORT }} 
+          user: ${{ secrets.USERNAME }} 
+          key: ${{ secrets.A }} 
