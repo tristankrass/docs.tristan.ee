@@ -14,7 +14,7 @@ jobs:
           HOST: ${{ secrets.HOST }}
           USERNAME: ${{ secrets.USERNAME }}
           PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.A }}
-        with:
-          source: ./docs 
-          target: ${{ secrets.LOCATION }}
+          KEY: ${{ secrets.KEY }}
+        with: 
+          source: "test.txt"
+          target: ~/test.txt
