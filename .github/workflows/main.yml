@@ -7,14 +7,33 @@ on:
 jobs:       
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7]
     steps:
-      - name: Deployment
+      - uses: actions/checkout@v2
+
+      - name: Setting up Python Environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      
+      - name: Install Pipenv
+        uses: dschep/install-pipenv-action@v1
+  
+      - name: Install dependencies
+        run: pipenv sync
+      
+      - name: Build the site
+        run: pipenv run mkdocs build --clean
+      
+      - name: Deploy
         uses: appleboy/scp-action@master
-        env:
-          HOST: ${{ secrets.HOST }}
-          USERNAME: ${{ secrets.USERNAME }}
-          PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.KEY }}
-        with: 
-          source: "test.txt"
-          target: ~/test.txt
+        with:
+          source: ${{ secrets.SOURCE }}
+          target: ${{ secrets.WEBSITE }}
+          overwrite: true
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
