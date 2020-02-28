@@ -10,6 +10,8 @@ mkdocs serve
 ```
 
 
+![CI](https://github.com/tristankrass/docs.tristan.ee/workflows/CI/badge.svg)
+
 ### TODOS
 
 - [ ] Setting up the ci/cd pipeline[pipeline](https://github.com/peaceiris/actions-gh-pages)
