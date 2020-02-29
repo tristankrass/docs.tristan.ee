@@ -30,7 +30,7 @@ jobs:
       - name: Deploy
         uses: appleboy/scp-action@master
         with:
-          source: ${{ secrets.SOURCE }}
+          source: ${{ secrets.SRC }}
           target: ${{ secrets.WEBSITE }}
           overwrite: true
           host: ${{ secrets.HOST }}
