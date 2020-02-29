@@ -27,6 +27,11 @@ jobs:
       - name: Build the site
         run: pipenv run mkdocs build --clean
       
+      - name: Test stuff
+        run: |
+          echo "Hello world"
+          ls /home/runner/work/ScpDemo/ScpDemo/site 
+      
       - name: Deploy
         uses: appleboy/scp-action@master
         with:
