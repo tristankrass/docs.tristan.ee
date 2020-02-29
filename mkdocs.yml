@@ -3,6 +3,8 @@ site_name: kb.tristan.ee
 nav:
   - Home: index.md
   - Distibuted: distibuted_systems.md
+  - AspNet: aspnetmvc.md
+  - JS: javacsript.md
 
 theme: 
   name: 'material'
