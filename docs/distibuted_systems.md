@@ -26,6 +26,16 @@ dotnet aspnet-codegenerator razorpage -m TodoTask -dc AppDbContext -udl -outDir 
 
 ### Bash script for generating dotnet sln with multiple projects inside it.
 
+`Directory.Build.props.`
+```xml
+<Project>
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+</Project>
+```
+
 ```bash
 #!/bin/bash
 echo name your solution
