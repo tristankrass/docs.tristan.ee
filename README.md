@@ -13,4 +13,4 @@ mkdocs serve
 
 ### TODOS
 
-- [ ] Setting up the ci/cd pipeline[pipeline](https://github.com/peaceiris/actions-gh-pages)
+- [x] Setting up the ci/cd [pipeline](https://github.com/peaceiris/actions-gh-pages)

@@ -1,13 +1,18 @@
 site_name: kb.tristan.ee
+site_author: "Tristan Krass"
+site_description: "Personal knowledge base"
 
+site_url: "https://docs.tristan.ee"
 nav:
   # - Home: index.md
   - .net:
     - Distibuted: distibuted_systems.md
     - AspNet: aspnetmvc.md
   - TransActSQL: TSQL.md
+  
   - 4semester: 
-    - 'javascript': 'javascript.md'
+    - 'javascript': '4semester/javascript.md'
+
   
 
 theme: 
@@ -15,7 +20,10 @@ theme:
 
 markdown_extensions:
   - codehilite
+  - smarty
 
 
 repo_url: https://github.com/tristankrass/docs.tristan.ee
 google_analytics: ['UA-125333420-6', 'docs.tristan.ee']
+use_directory_urls: true
+
