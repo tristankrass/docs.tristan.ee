@@ -1,15 +1,21 @@
 site_name: kb.tristan.ee
 
 nav:
-  - Home: index.md
-  - Distibuted: distibuted_systems.md
-  - AspNet: aspnetmvc.md
-  - JS: javascript.md
+  # - Home: index.md
+  - .net:
+    - Distibuted: distibuted_systems.md
+    - AspNet: aspnetmvc.md
   - TransActSQL: TSQL.md
+  - 4semester: 
+    - 'javascript': 'javascript.md'
+  
 
 theme: 
   name: 'material'
 
 markdown_extensions:
   - codehilite
-  
+
+
+repo_url: https://github.com/tristankrass/docs.tristan.ee
+google_analytics: ['UA-125333420-6', 'docs.tristan.ee']
