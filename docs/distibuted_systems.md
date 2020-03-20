@@ -1,5 +1,31 @@
 # Distributed systems
 
+### Dotnet tooling
+
+```
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+dotnet tool list -g
+dotnet --version
+dotnet info
+```
+
+
+```csharp
+// Method inside Startup.cs for updating the db automatically
+private static void UpdateDatabase(IApplicationBuilder app, IWebHostEnvironment env,  IConfiguration configuration)
+    {
+        using var serviceScope = app.ApplicationServices
+            .GetRequiredService<IServiceScopeFactory>()
+            .CreateScope();
+
+        using var ctx = serviceScope.ServiceProvider.GetService<ApplicationDbContext>();
+
+        // ctx.Database.EnsureDeleted();
+        ctx.Database.Migrate();
+    }
+```
+
 
 ## Generating apis
 
