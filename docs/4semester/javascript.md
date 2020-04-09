@@ -8,3 +8,8 @@
 - [Typescript type packages](https://microsoft.github.io/TypeSearch/)
 
 - [Great article about modern 2020 react app](https://medium.com/@sidetrade_labs/modern-2020-react-stack-or-how-we-switched-away-from-angular-a9efb65d51e5)
+- [Starter react app on Github](https://github.com/sidetrade-labs/react-redux-typescript/blob/master/src/config/axios.ts)
+
+[VS Code docs on how to develop Front end applications inside the container using the
+vs code extension for that.](https://code.visualstudio.com/docs/remote/containers)
+

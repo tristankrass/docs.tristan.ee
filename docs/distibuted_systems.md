@@ -2,6 +2,9 @@
 
 ### Dotnet tooling
 
+[Wiki for Designing a restful api](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#microsoft-rest-api-guidelines-23)
+
+
 ```
 dotnet tool install --global dotnet-ef
 dotnet tool update --global dotnet-ef
