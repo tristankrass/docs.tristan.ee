@@ -182,6 +182,11 @@ Create a .cshtml where the code lives and use it inside other cshtml files by ca
 
 
 ### Areas
+When the projects get really big it's benefitial to split the views up. One way to approach is to use
+areas. Little containers that each live on their own.
+
+[Area("Admin")]
+[Area("Client")]
 - Areas
     - Admin
         - Controllers
@@ -192,6 +197,18 @@ Create a .cshtml where the code lives and use it inside other cshtml files by ca
         - Controllers
         - Views
         - Models
+
+Linking inside the same area is not mandator, but outside the area it's done by
+adding asp-area property.
+```html
+<a asp-area="Admin" asp-controller="Home" asp-action="Index">Home</a>
+```
+
+
+#### Tag helpers (Formating)
+Asp-format="<formay>"
+use to format value
+<input asp-for="SomeNumber" asp-format="{0:N4}" /> //For example descimal places
 
 ```csharp
 app.UseMvc(routes =>
