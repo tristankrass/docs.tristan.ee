@@ -8,7 +8,8 @@ nav:
   - .net:
     - Distibuted: distibuted_systems.md
     - AspNet: aspnetmvc.md
-  - TransActSQL: TSQL.md
+    - TransActSQL: TSQL.md
+  - Docker: docker.md
   
   - 4semester: 
     - 'javascript': '4semester/javascript.md'
