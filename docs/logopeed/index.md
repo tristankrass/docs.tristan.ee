@@ -10,6 +10,4 @@ Failid, mida muutsin.
     1. Seal samas, kus on `composer.json` fail on kaust `sk-id-solutions`.
     2. Seda läheb kindlasti vaja
 
-### Versioon, mis töötab on üles laetud mu serverisse. 
-kasutajanimi: milo
-ip aadress: 157.230.17.226
+Failid on leitavad ftp kaudu.
