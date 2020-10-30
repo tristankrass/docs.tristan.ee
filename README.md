@@ -10,7 +10,6 @@ mkdocs serve
 ```
 
 
-
 ### TODOS
 
 - [x] Setting up the ci/cd [pipeline](https://github.com/peaceiris/actions-gh-pages)

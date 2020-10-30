@@ -18,12 +18,14 @@ nav:
 
 theme: 
   name: 'material'
-
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'
 markdown_extensions:
   - codehilite
   - smarty
+  - pymdownx.arithmatex
 
-
+  
 repo_url: https://github.com/tristankrass/docs.tristan.ee
 google_analytics: ['UA-125333420-6', 'docs.tristan.ee']
 use_directory_urls: true

@@ -9,6 +9,8 @@ click-man = "*"
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
+pymdown-extensions = "*"
+markdown-include = "*"
 
 [requires]
 python_version = "3.7"
