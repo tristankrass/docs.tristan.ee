@@ -1,5 +1,14 @@
 # Füüsika
 
+## Todos
+- [ ] Antiikteadus (loeng 1)
+- [x] Liikumine ja liikumishul(loeng 2)
+- [x] Newtoni seaduse(loeng 3)
+- [ ] Energia ja romantism(loeng 4)
+- [ ] Entroopia (loeng 5)
+- [ ] Elekter ja magnetism (loeng 6)
+- [ ] Võnkumised ja lained (loeng 7)
+
 ## Antiikteadus
 
 
@@ -93,4 +102,144 @@ Isoleeritud systeemi summaarne liikumishulk
 3. Luther 1517
 ![Ajatelg2](images/ajatelg2.png)
 
-![Liikumishulk](images/liikumishulk.png)
+## Newtoni seadused
+
+### Newtoni 1. seadus
+Kui keha ei tülitata, siis on ta paigal või liigub ühtlase kiirusega mööda sirgjoont.
+
+*Täpsemalt: Keha liigub ühtlases ja sirgjooneliselt siis, kui temale mõjuvad jõud on tasakaalus.*
+
+### Newtoni 2. seadus
+Keha liigub kiirendusega, kui talle mõjub jõud.
+\begin{equation}
+\vec{F} = m\vec{a}
+\end{equation}
+Mida suurem on jüud, seda suurem kiirendus.
+Sama jõu puhul on suurema massi kiirendus väiksem. Mass on keha intertsi mõõduks.
+
+### Newtoni 3. seadus
+
+Kui üks keha avaldab teisele kehale jõudu, siis
+teine keha vastab samaga.
+
+### Järeldusi Newtoni seadustest
+- Inerts on keha omadus säilitada oma liikumise olekut.
+- Inertsiaalsüsteem on selline taustsüsteem, kus kehtib inertsiseadus
+- Newtoni seadused kehtivad vaid inertsiaalsüsteemides
+- Mass on keha inertsi mõõduks
+
+### Vaba langemine 
+Galilei kehade langemise seletus sobib Newtoni skeemi:
+- konstantne kiirendus on raskuskiirendus
+- konstante jõud on keha kaal
+
+\begin{equation}
+\vec{P} = m \vec g
+\end{equation}
+
+*Kaal on vektor, mass on skalaar*
+
+### Kiirendus
+
+Kiirendus näitab kiiruse muutumist.
+Muutuda saavad kiiruse suurus ja kiiruse suund.
+
+![Kiirendus](kiirendus.png)
+
+#### Ringliikumine
+
+
+Kui muutub ainult kiiruse suund, saame ühtlase ringliikumise.
+Ühtlase ringliikumise kiirendust nimetatakse kesktõmbekiirenduseks:
+
+\begin{equation}
+a = \frac{v^2}{r}
+\end{equation}
+
+Kiiruse suunda muudab kesktõmbejõud:
+\begin{equation}
+F = m\frac{v^2}{r}
+\end{equation}
+
+Kus: 
+**v** - kiiruse suurus
+**r** - ringjoone raadius
+
+### Pöörlemishulk
+
+Teljega risti oleval ringjoonel liikuva osakese
+pöörlemishulk on 
+\begin{equation}
+L = mvr
+\end{equation}
+
+*m* on osakese mass
+*v* on osakese kiirus (suunda arvestades)
+*r* on osakese kaugus pöörlemisteljest
+
+![](poorlemishulgaSeadus.png)
+
+### Newtoni gravitatsiooniseadus
+
+\begin{equation}
+F = G \frac{m M}{r^2}
+\end{equation}
+*F* on kahe keha vaheline tõmbejõud
+*m* ja *M* on kehade massid
+*r* on kehade vaheline kaugus
+
+\begin{equation}
+g = 6.6726 * 10^{-11} nm^2kg^{-2}
+\end{equation}
+
+Gravitatsiooniseaduse rakendimine maa lähedal annab raskuskiirenduse
+
+\begin{equation}
+G\frac{M}{R^2} = g
+\end{equation}
+Siin M on Maa mass ja R on maa raadius
+
+![Newton](images/newtoni_paradigma.png)
+
+## Esteetika ja füüsika
+- Kopernik paigutas Päikese süsteemi keskele
+ilu kaalutlustel - ta ju valgustab meid.
+- Kepler aimas, et Päikesel on peale valgustamise veel teinegi funktsioon - panna planeedid liikuma
+_ **Newton** näitas, et tal oli õigus
+
+
+### Seitse põhiühukut
+
+- Pikkus - meeter
+- Aeg - seknud
+- Mass - kilogramm
+- Elektrivoolu tugevus - amper
+- Temperatuur - Kelvini kradd
+- Valgustugevus - kandela
+- Ainehulk - mool
+
+### Ülesanded
+
+![](images/ylesanneNewtoni1.png)
+<details>
+<summary>Lahendus</summary>
+Sama jõud mõjub mõlemale. Samal teel sõidetakse konstantse 
+kiirusega.
+</details>
+
+
+![](images/ylesanneNewtoni2.png)
+<details>
+<summary>Lahendus</summary>
+\begin{equation}
+\sum \vec{F} = m \vec{a}
+\\
+a = g = const
+\end{equation}
+</details>
+
+![](images/ylesanneNewtoni3.png)
+<details>
+<summary>Lahendus</summary>
+![](images/ylesanneNewtoni3Lahendus.png)
+</details>
