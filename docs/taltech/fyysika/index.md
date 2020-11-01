@@ -241,5 +241,5 @@ a = g = const
 ![](images/ylesanneNewtoni3.png)
 <details>
 <summary>Lahendus</summary>
-![](images/ylesanneNewtoni3Lahendus.png)
+<img src="images/ylesanneNewtoni3Lahendus.png" />
 </details>
