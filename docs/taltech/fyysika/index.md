@@ -5,7 +5,7 @@
 - [x] Liikumine ja liikumishul(loeng 2)
 - [x] Newtoni seaduse(loeng 3)
 - [x] Energia ja romantism(loeng 4)
-- [ ] Entroopia (loeng 5)
+- [x] Entroopia (loeng 5)
 - [ ] Elekter ja magnetism (loeng 6)
 - [ ] Võnkumised ja lained (loeng 7)
 
@@ -305,6 +305,9 @@ Näide
 ![](images/boltzmann.png)
 
 
+## Entroopia
+
+
 ### Mehaanilise energia jäävus
 
 Teatud kõrgusele tõstetud keha potentsiaalne energia on muundatav kineetiliseks
@@ -367,3 +370,166 @@ Kumb tegi rohkem tööd? Kumma võimsus on suurem?
     1. A, sest tema mass on 2x suurem.
     2. Sama suur võimsus.
 6. [](images/ylesanneRomantism.png)
+
+
+## Entroopia
+
+Aine molekul mass on üks number Mendelejevi tabelis ja võtta ainehulk grammides, siis on tegemist ühe mooliga.
+Näiteks: Vesi - Üks vesinik ja kaks hapnikku
+ehk 16 + 1 + 1 saame 18 molekulmassiks, seega vee mool on 18 grammi.
+
+
+### Molekulide kiirus ja temperatuur
+
+Ruutkeskimine kiirus on seotud absoluutse (Kelvini) temperatuuriga.
+
+\begin{equation}
+T = \frac{m(v^{-II})^2}{3k}
+\end{equation}
+K on Boltzmanni konstant
+`k = 1.38 * 10^-23 J/K`
+Boltzmanni konstant seob omavahel molekulide soojusliikumise kineetilise energia ja absoluutse temperatuuri.
+
+### Kelvin 
+
+Kelvin on termodünaamilise temperatuuri mõõtühik, 
+mis vastab temperatuuri niisugusele muutusele, 
+mis kaasneb termodünaamilise energia muutusega `1.38*10^-23 J/K` 
+dzauli võrra.
+
+1. 0 K = -273.15 C
+2. 1 K = 1 C = 1.8 F
+3. 0 F = -18C
+4. 0C = 32F
+
+
+
+### Temperatuur ja soojus
+
+- Keha temperatuur näitab molekulide liikumise keskmist
+kineetilist energiat.
+- Soojushulk on energia, mille ülekandumine põhjustab kehade temperatuuride muutumist.
+- Aine erisoojuse on energia hulk, mis kulub 1 kg selle aine
+temperatuuri tõstmiseks 1 kraadi võrra.
+- Soojushulka mõõdetakse dzaulides.
+NB! Rääkida saab ainult ülekantavase soojushulgast. Kogu 
+kehas olev soojushulk on nonsenss.
+
+Vee erisoojus on üks suuremaid ning seetõttu on talvel mere ääres 
+soojem ja suvel külmem.
+
+![](images/edasiAntavSoojushulk.png)
+
+### Termodünaamikas esimene seadus
+**1. Isoleeritud süsteemi energia on muutumatu suurus.**
+Looduses ei teki energiat juurde ega kao ära. Energia
+võib ainult muunduda ühest liigist teiseks.
+**2. Esimest liiki *perpeetum mobile* on võimatu**
+Esimest liiki *perpeetum mobile* on masin, mis teeb tööd mitte millegi arvel.
+
+![](images/energiaJaavusNaide.png)
+![](images/soojusmasin.png)
+
+Soojusmasin kasutegur:
+
+\begin{equation}
+\eta = \frac{Q_1 - Q_2}{Q_1} \leq \frac{T_1 - T_2} {T_1}
+\end{equation}
+
+1. `Q_1` on soojendajalt saadud soojushulk.
+2. `Q_2` on jahutajale antud soojushulk
+3. `T_1` on soojendaja temperatuur.
+4. `T_2` on jahutaja temperatuur
+
+**NB! Ikka Kelvini temperatuur.**
+![](images/soojuspump.png)
+
+### Entroopia 
+Entroopia on ülekantava soojushulga ja selle
+ülekandmise temperatuuri suhe
+\begin{equation}
+S = \frac{Q} T
+\end{equation}
+**Mida näitab entroopia ja temperatuuri korrutis?**
+Näitab ülekantavat soojushulka.
+
+Entroopia ühik on J/K
+Mida kõrgem on temperatuur, seda väiksem on entroppia.
+
+### Entroopia ja kasulik töö
+
+Kasulik soojus, mille arvel soojusmasin teeb tööd:
+\begin{equation}
+Q_1 - Q_2 = A
+\end{equation}
+
+Carno't valemist ja entroopia definitsioonist
+\begin{equation}
+A \leq Q_1 - T_2 S_1 
+\end{equation}
+
+Entroopia iseloomustab tööks mittemuundatavaid soojushulki.
+
+\begin{equation}
+A = \eta Q_1 \leq \frac{T_1 - T_2} {T_1} Q_1 = (1 - \frac{T_2}{T_1})Q_1 = Q_1 - \frac{T_2 Q_1}{T_1} = Q_1 - T_2 S_1
+\end{equation}
+
+### Soojust kvaliteet
+Soojusenergia kvaliteedi määrab tema ülekandmise temperatuur.
+Mida kõrgem temperatuur, seda vähem läheb energiat kaduma.
+
+*Temparatuuri alandamine küttesüsteemis ei ole kokkuhoid.*
+
+### Termodünaamika teine seadus.
+1. Teist liiki *perpeetum mobile* - soojusmasin, mis muudab kogu 
+soojuse tööks - on võimatu.
+2. Jahtuv keha saab kõrval tehtava töö abita soojendada ainult
+niisuguseid kehasid, mille temperatuur on tema omast madalam.
+3. Isoleeritud süsteemi entroopia püüab kasvada maksimumi.
+Termodünaamika esimene seadus ütleb, mis on lubatud, teine seadus 
+ütleb, mis tegelikult toimub.
+
+### Pööratav ja mittepööratav protsess
+
+1. Pööratava protsessi puhul ei teki ümbritevas
+keskkonnas mingeid muutusi ja päripidisele
+protsessile võib iseenesest järgneda vastupidine
+protsess.
+    1. Palli elastne põrge vastu seina
+2. Mittepööratava protsessi puhul päripidisele
+protsessile ei järgne iseenesest vastupidine protsess.
+    1. Tinditilk vees
+
+### Miks mõni protsess on pööratav?
+Mitte ainult soojusel, vaid ka energial on kvaliteet,
+mille määrab entroopia. Mehaaniline energia on 
+kvaliteetsem kui soojusenergia.
+*Koordineeritud ja juhuslik liikumine.*
+Protsess on pööratav, kui energia kvaliteet on sama
+*Palli elastne põrge.*
+Madalama kvaliteediga energia ei saa iseenesest 
+muunduda kõrgema kvaliteediga energiaks.
+*Kukkuv ja kuumutatav kimi.*
+
+### Negentroopia
+
+Negentroopia on negatiivne entroopia.
+Mida suurem on negentroopia, seda kvaliteetsem
+on energia.
+
+### Aja suund
+
+- Mehaanika põhiseaduse ei määra aja suunda
+- Aja suuna määrab mõnede protsesside pöördumatus.
+
+![](images/boltzman2.png)
+
+
+
+### Impressionism ehk mulje
+![](images/impressionism1.png)
+
+
+
+
+
