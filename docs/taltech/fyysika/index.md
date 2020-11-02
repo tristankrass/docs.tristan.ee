@@ -4,7 +4,7 @@
 - [ ] Antiikteadus (loeng 1)
 - [x] Liikumine ja liikumishul(loeng 2)
 - [x] Newtoni seaduse(loeng 3)
-- [ ] Energia ja romantism(loeng 4)
+- [x] Energia ja romantism(loeng 4)
 - [ ] Entroopia (loeng 5)
 - [ ] Elekter ja magnetism (loeng 6)
 - [ ] Võnkumised ja lained (loeng 7)
@@ -243,3 +243,127 @@ a = g = const
 <summary>Lahendus</summary>
 <img src="images/ylesanneNewtoni3Lahendus.png" />
 </details>
+
+
+## Energia ja romantism
+
+Kaks maailmavaadet: 
+Redukstionism - looduse mõistmiseks on tarvis teada väheseid lihtsaid printsiipe. **Loodus on masin.**
+
+Holism - looduse mõistmisel on tähtsam teada tema osiste suhete ning seoste keerukat võrku. **Loodus on organism.**
+
+![](images/ratioEmotio.png)
+
+Kineetiline energia on energia, mida keha omab liikuimise tõttu.
+
+\begin{equation}
+K = \frac{1}{2} mv^2
+\end{equation}
+*m on keha mass
+v on keha kiirus*
+
+### Töö
+
+Töö arvutamiseks korrutatakse jõu väärtus kaugusega, milleni keha liigub jõu mõjumise suunas.
+
+![](images/teeJoud.png)
+
+\begin{equation}
+A = Fx cos0
+\end{equation}
+Tööd mõõdetakse dzaulides (J)
+
+### Võimsus on energa ülekande tempo
+\begin{equation}
+N = \frac {Fx}{t} = Fv
+\end{equation}
+
+- F on jõud.
+- x on liikumise kaugus piki jõu mõjumise suunda
+- t on aeg
+- v on kiirus
+**Võimsust mõõdetakse vattides (W)**
+
+### Potentsiaalne energia
+
+- Potentsiaalne energia on energia, mis on kehadel nende asendi tõttu.
+- Teatud kõrgusele tõstetud keha potentsiaalne energia:
+\begin{equation}
+V = mgh
+\end{equation}
+- m on keha mass
+- g = `9.81ms^2` on raskuskiirendus
+- h on kõrgus (maapinna kohal)
+
+Näide
+![](images/potentialTokineetiline.png)
+![](images/ratioEmotio.png)
+![](images/ratioEnergia.png)
+
+### Boltzmann ja Joule
+![](images/jamesJoule.png)
+![](images/boltzmann.png)
+
+
+### Mehaanilise energia jäävus
+
+Teatud kõrgusele tõstetud keha potentsiaalne energia on muundatav kineetiliseks
+ja kineetilisest energias on võimalik tagasi saada 
+potentsiaalne energia.
+\begin{equation}
+\frac{1}{2}mv^2+mgh = const
+\end{equation}
+
+![](images/potentialTokineetiline2.png)
+
+### Emotio sukeldus romantismi
+- Klassikaliste ideaalide kord, tasakaal ja
+vaoshoitus oli ära tüütanud
+- Uuteks ideaalideks vabadus, liikumine kirja ja 
+saavutamatu taotlemine
+- Uuteks teemadeks igavik, minevik või tulevik
+ja kaugete maade avarused.
+- Natuurfilosoofia koolkond Saksamaal rõhutas
+looduse ühtsust. 
+
+![](images/prantsuseRomantism.png)
+![](images/teeJoud.png)
+
+
+Rokokoo nimetus tuleb teokarbist.
+![](images/saksaRomantism.png)
+![](images/prantsuseRomantism.png)
+
+
+
+
+![](images/ajajoonRomantism.png)
+
+### Ülesanded
+
+1. Mees hoiab kogu jõuga püsti seina,
+mis kipub ümber kukkuma.
+Kas mees teeb tööd?
+    1. Ei tee (Liikumist ei toimu)
+2. Raamat kukub lauat maha.
+Kas sellels protsessis tehakse tööd?
+    1. Jah. Rasksuskiirendus.
+3. Kelner hoiab ühe käega raske kandikut pea kohal
+ja liigub ühtlase kiirusega läbi ruumi. Kas
+kelner teeb tööd?
+    1. Ei tee, sest nurk kelneri ja kandiku vahel
+    on 90 kraadi ehk koosinus 90 on null ja seega
+    on töö null. Samamoodi ei tee tööd ükski
+    objekt, mis sooritab ühtlast ringliikumist.
+4. A ja b on jõusaalis. A tõstab 20-kgse massiga
+sangpommi 1 meetris kõrgusele 10 korda ühe minuti jooksul, 
+B aga samasugust pommi sama kõrgele 10 korda 30 sekundi
+jooksul. Kumb teeb rohkem tööd? Kumba võimsus on suurem?
+    1. Sama palju tööd. 
+    2. B võimsus on suurem. 
+5. A ja B jooksevad mäkke. A mass on 2 korda suurem
+kui B mass. B jõuab mäetippu 2 korda lühema ajaga kui A.
+Kumb tegi rohkem tööd? Kumma võimsus on suurem?
+    1. A, sest tema mass on 2x suurem.
+    2. Sama suur võimsus.
+6. [](images/ylesanneRomantism.png)
