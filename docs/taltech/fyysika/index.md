@@ -6,7 +6,7 @@
 - [x] Newtoni seaduse(loeng 3)
 - [x] Energia ja romantism(loeng 4)
 - [x] Entroopia (loeng 5)
-- [ ] Elekter ja magnetism (loeng 6)
+- [x] Elekter ja magnetism (loeng 6)
 - [ ] Võnkumised ja lained (loeng 7)
 
 ## Antiikteadus
@@ -600,3 +600,139 @@ Vastus: d)
 Vastus: a)
 ![](images/soojusYl4.png)
 Vastus: a)
+
+
+## Elekter ja magnetism
+
+### Benjamin Franklin (1706-1790)
+
+Philadelphia trükikoja omanik
+*1751 Katseda ja vaatlused elektri kohta*
+- Kaht liiki elektrilaengud
+- Erinimelised tõmbuvad, samanimelised tõukuvad
+- Tavaline aine on neutraalne, sest sisaldab kumbagi märgi laenguid võrdsel hulgal.
+
+*Oli üks iseseisvusdeklaratsiooni koostajatest.*
+
+### Charles Couloumb (1736-1806)
+Nii nagu gravitatsioongi, rahuldab elektrijõud
+pöördruudu seadust:
+
+\begin{equation}
+F = K \frac{qQ}{r^2}
+\end{equation}
+- *Q* ja *q* on laengud
+- *r* on laenguvaheline kaugus
+- K = `9*10^9NM^2/C^2` on konstant
+
+Laengu ühik on kulon - 1C
+
+### Laengu jäävuse seadus
+
+- Aine, kus puuduvad vabad laengud on dielektrik
+- Aine, mis sisaldab vabu laenguid, on juht
+- Elektrilaeng on kvanditud. Kvandi suuruse määrab 
+elektroni laeng: `q=-1.6*10^-19C`
+
+Isoleeritud süsteemis on laengute algebraline summa konstantne.
+
+Elektroni laengu suurus määrati alles aastal 1910
+
+### Itaalia krahv Alessandro Volta (1745-1827)
+
+![](images/volta.png)
+
+### 1839 patenteerit dagerrotüüpia - esimene tõsiseltvõetav fotomenetlus
+Nimi tuleb Louis Daguerre järgi (1787-1851)
+
+**Mis järjekorras toimusid 19.sajandi avastused?**
+
+### Michael Faraday (1791-1861)
+
+Kaugmõju tõlgendused:
+Newtoni arusaama kohaselt mõjutavad kehad teineteis mitte millegi vahendusel.
+Faraday arusaama kohaselt toimib kaugmõju välja vahendusel.
+
+![](images/faraday1.png)
+
+
+### Väljatugevus
+
+Elektivälja tugevus on positiivsele ühiklaengule mõjuv jüud.
+
+Coulombi seadus väljatugevuse kaudu:
+
+\begin{equation}
+E = K \frac Q r^2
+\\
+F  = qE
+\end{equation}
+
+Väljatugevuse ühik on N/C
+
+![](images/millikanExperiment.png)
+
+
+### Magnetväli 
+
+Magnetvälju tekitavad ainult **liikuvad** laengud.
+Elektrivool on laengute liikumine - Orstedi katse seletus: 
+
+![](images/orstedExperiment.png)
+Magnetvälja väljajooned moodustavad kinniseid kontuure,
+ent *ei näita jõu mõjumise suunda*
+
+![](images/magnet.png)
+
+
+### Magnetjõud
+
+Magnetväljas liikuvale laengule mõjub jõud, mis on risti nii laengu liikumise suuna kui magnetvälja suunaga.
+
+\begin{equation}
+F = qvB \sin 0
+\end{equation}
+
+
+
+- *q* on laeng
+- *v* on laengu liikumise kiirus
+- *B* on magnetiline induktsioon, mille suunda näitab magnetvälja väljajoon, ühik on tesla **T = N/Am** 0 on kiiruse ja magnetilise induktsiooni suuna vaheline nurk.
+
+![](images/magnetjoud.png)
+
+### Amper
+
+Amper - on 1C/s ehk laengu "voolamise" tempo
+
+![](images/laetudOsakeseLiikumine.png)
+![](images/laetudOsakeseLiikumine2.png)
+
+### Seos elektri ja magnetismi vahel
+
+Michael Faraday
+- Näitas katsetega, et muutuv elektriväli tekitab magnetvälja ja muutuv magnetväli tekitab elektivälja.
+- Oletas, et tegu on ühtse elektronmagnetvälja erikujudega.
+
+### James Maxwell (1831-1879)
+- Tõestas matemaatiliselt selle, mida Faraday oli näidanud katsetega.
+- Traktaat elekrist ja magnetismist 1873
+- Maxwelli võrrandid lubavad arvutada elektromagnetilise välja omadusi.
+
+### Elektromagnetväli
+
+Elektri- ja magnetväli on ühe terviku - elektromagnetvälja erinevad
+avaldusvormid.
+
+Kaasaliikuv süsteem - laeng seisab; elektrostaatiline väli.
+Paigalseisev süsteem - laeng liigub; vool; elektriväli ja
+magnetväli.
++ *Laeng lennukis*
++ *Vaatleja lemnnukis*
++ *Vaatleja lennuväljal*
+
+
+
+
+
+
