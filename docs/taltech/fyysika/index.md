@@ -532,4 +532,71 @@ on energia.
 
 
 
+![](images/osakestejaotamine.png)
+Formuleering 3: Isoleeritud süsteemi püüab kasvada maksimumi.
 
+\begin{equation}
+S = k ln W
+\end{equation}
+Kui *W* on suurim, siis *S* on maksimaalne
+
+
+**Isoleeritud süsteemis toimuvad kõik protsessid nii, et süsteemi
+makroolekut realiseerivate mikroolekute arv oleks suurim.**
+
+*Korrastamatuse (mitte korralageduse!) kasvu seadus*
+
+### Termodünaamikas II seaduse kitsendused.
+
+- Väga väikestes mastaapides tekivad kergesti fluktuatsioonid
+ja entroopia võib kahaneda
+- Väga suurtes mastaapides pole seadus rakendatav, sest süsteem peab olema isoleeritud.
+
+### Entroopia väljaspool füüsikat
+
+Entroopia osutus üldisemaks mõisteks kui energia.
+Avatud süsteemis võib entroopiat kahandada,
+aga selleks on vaja sekkuda.
+*Maja laguneb iseenesest*
+*Prügi ei kao kuhugi*
+
+Mittetasakaalulistes süsteemides, kust voolab läbi palju ainet
+ja energiat, võivad iseenesest tekkida struktuurid.
+
+
+### Miks Maal kestab elu?
+
+Tuleb ja läheb soojuskiirgus. Atmosfääri ülapiirile saabuv
+**energiahulk** on sama suur kui sealt lahkuv energiahulk, aga nende
+**kvaliteedid** on erinevad.
+Lühema lainepikkusega kiirguse entroopia väiksem - Päikese temperatuur on kõrgem kui Maa temperatuur.
+Iga aastane **negentroopia** on `10^19 cal/K`.
+Selle arvel tekivad korrastatud süsteemid ja kestab elu.
+![](images/eluplaneedil.png)
+
+
+### Informatsioon 
+
+Informatsioon on mõõdetav, informatsioon 
+kirjeldab määramatuse vähendamist.
+
+Valem mõõtmiseks: 
+\begin{equation}
+I = - \log_2 p
+\end{equation}
+![](images/norbertWiener.png)
+
+![](images/entroopiaKolmasKuju.png)
+![](images/lorents1.png)
+![](images/lorents2.png)
+
+
+### Ülesanded 
+![](images/soojusYl1.png)
+Vastus: c), b)
+![](images/soojusYl2.png)
+Vastus: d)
+![](images/soojusYl3.png)
+Vastus: a)
+![](images/soojusYl4.png)
+Vastus: a)
