@@ -7,7 +7,7 @@
 - [x] Energia ja romantism(loeng 4)
 - [x] Entroopia (loeng 5)
 - [x] Elekter ja magnetism (loeng 6)
-- [ ] Võnkumised ja lained (loeng 7)
+- [x] Võnkumised ja lained (loeng 7)
 
 ## Antiikteadus
 
@@ -694,7 +694,6 @@ F = qvB \sin 0
 \end{equation}
 
 
-
 - *q* on laeng
 - *v* on laengu liikumise kiirus
 - *B* on magnetiline induktsioon, mille suunda näitab magnetvälja väljajoon, ühik on tesla **T = N/Am** 0 on kiiruse ja magnetilise induktsiooni suuna vaheline nurk.
@@ -732,7 +731,83 @@ magnetväli.
 + *Vaatleja lennuväljal*
 
 
+## Võnkumised ja lained
 
 
+### Harmooniline võnkumine 
 
+- Hälve - kõrvalkalle taskaaluasendist
+- Amplituud - Maksimaalne kõrvalkalle tasakaaluasendist
+- Sagedus *f* - võngete arv sekundis (Hz)
+- Periood T - ühe võnke aeg (s)
+T = `1/f` f = 1/T
+
+*Harmoonilisel võnkumisel ei muutu amplituud, sagedus ega periood.
+
+![](images/sumbuvVonge.png)
+![](images/lainePikkusPeriood.png)
+![](images/pendelVonge.png)
+
+### Peioodilise laine levimise kiirus
+
+Laineharja levimise kiirus - laine faasikiirus.
+Seos laine levimise kiiruse *c*, lainpeikkuse *λ*
+ja sageduse *f* vahel.
+
+\begin{equation}
+c = \lambda f
+\\
+c =  \frac \lambda T
+\end{equation}
+
+Valguse ja teise elektromagnetiliste lainete
+kiirus vaakumis: `300 000 km/s`
+Hääle kiirus õhus `340 m/s`
+
+### Seisulained
+
+- Seisulained tekivad siis, kui laine on sulustatud kindlate piiride vahele.
+- Seisulaine puhul on teatud ruumipunktides sõlmed, mis jäävad liikumatuks.
+- Piirete vahele mahub täisarv poollainet
+- **Ühe poollaine puhul räägitakse esimest harmoonikust**
+
+### Interferentsimustrid
+Interferentsi liigi antud punktis kahe allika vahel, millest lained 
+väljuvad samas faasisis määrab suhe
+
+\begin{equation}
+q = \frac {L_1 - L_2} \lambda
+\end{equation}
+
+- `L_1` ja `L_2` on kaugused kummastki allikast
+- `λ` on lainepikkus
+
+
++ Täisarvulise q puhul on interferents täiuslikult konstruktiivne
++ Poolarvulise q puhul on interferents täiuslikult destruktiivne
+
+![](images/thomasYoung.png)
+
+
+### Heli
+
+- Heli koosneb sinusoidaalsetest heliltugeainetest.
+- Helihark annab ainult ühe sinusoidi.
+- Heli tugevust näitab võnkumise amplituud.
+- Heli kõrgust näitab võnkumise sagedus. 
+
+![](images/newtoniKatse.png)
+![](images/valgusspekter.png)
+
+
+### Vikerkaar
+
+Vikerkaar on vihmapilv, kus piiskades erinevate nurkade all murduv valgus.
+![](images/vikerkaar.png)
+
+### Halo
+
+Selleks on vaja jääkristalle.
+Kõrgel pilvedel on kristallid olemas.
+![](images/halo.png)
 
