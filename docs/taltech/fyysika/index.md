@@ -1,13 +1,16 @@
 # Füüsika
 
 ## Todos
-- [ ] Antiikteadus (loeng 1)
+- [x] Antiikteadus (loeng 1)
 - [x] Liikumine ja liikumishul(loeng 2)
 - [x] Newtoni seaduse(loeng 3)
 - [x] Energia ja romantism(loeng 4)
 - [x] Entroopia (loeng 5)
 - [x] Elekter ja magnetism (loeng 6)
 - [x] Võnkumised ja lained (loeng 7)
+- [ ] Unknown
+
+
 
 ## Antiikteadus
 
@@ -810,4 +813,11 @@ Vikerkaar on vihmapilv, kus piiskades erinevate nurkade all murduv valgus.
 Selleks on vaja jääkristalle.
 Kõrgel pilvedel on kristallid olemas.
 ![](images/halo.png)
+
+
+# Teine osa
+
+
+
+
 
