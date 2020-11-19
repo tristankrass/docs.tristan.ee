@@ -47,6 +47,60 @@ val r2 = x.append(", World").toString
 
 ```
 
+## Terms in FP
+
+- Tail recursive functions -
+A call is said to be in **tail position* if 
+the caller does nothing other than return the value of the
+recursive call.
+
+
+- ***(HOF)- Higer-order functions- that take in other functions as arguments and may
+themself return functions as their output.
+
+
+```scala
+
+```
+
+## Polymorphic functions: Abstracting over types
+
+```scala
+// Example of monomorphic function
+def findFirst(ss: Array[String], key[String]) : Int {
+  
+  @annotation.tailrec
+  def loop(n: Int) : Int = 
+    if (n >= ss.length) -1
+    else if (ss(n) == key) n
+    else loop(n+1)
+
+  loop(0)
+}
+
+// Example of polymorphic function
+def findFirst[A](ss: Array[A], p: A => Boolean) : Int {
+  
+  @annotation.tailrec
+  def loop(n: Int) : Int = 
+    if (n >= ss.length) -1
+    else if (p(ss(n))) n
+    else loop(n+1)
+
+  loop(0)
+}
+
+// This is an example of a polymorphic function, sometimes called
+// generic function.
+```
+
+
+
+
+
+
+
+
 
 
 
