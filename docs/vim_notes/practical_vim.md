@@ -73,14 +73,40 @@ Execute a sequence of changes | `qx{changes}q` | `@x` | `u` |
 `<` | Shift left |
 `=` | Autoindent |
 `!` | Filter{motion lines through an external program}|
+`<C-h>` | Delete back on character (backspace) |
+`<C-w>` | Delete back one word |
+`<C-u>` | Delete back to start of line |
+`K` | Look up the man pages under the cursor |
+`J` | Join the current and the next lines togehter |
+
+
+
+## Inserting unusuual Characters
+
+| Keystrokes | Effect |
+--- | --- |  
+`<C-v>{123}` | Insert a character by decimal code |
+`<C-v>u{123}` | Insert a character by hexadecimal code |
+`<C-v>{nondigit}` | Insert nondigit literally |
+`<C-k>{char1}{char2}` | Insert character represented by {char1}{char2} diagraph |
+
+
+Inside insert mode press `<C-o>zz` to move the screen to zenter
+Inside insert mode press `<C-r>=`10+10`<CR>`
+Inside insert mode press `<C-v>065`will insert `A`
+Inside insert mode press `<C-v>u00bf`will insert `¿`
+
+
+## Enabling visual modes
+
+| Command | Effect |
+--- | --- |  
+`v` | Enable character-wise Visual mode |
+`V` | Enable line-wise Visual mode |
+`<C-v>` | Enable block-wise Visual mode |
+`gv` | Reselecet the last visual selection |
 
 
 
 
-
-
-
-
-
-`y` | Change |
 
