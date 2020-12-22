@@ -8,7 +8,6 @@
 - [x] Entroopia (loeng 5)
 - [x] Elekter ja magnetism (loeng 6)
 - [x] Võnkumised ja lained (loeng 7)
-- [ ] Unknown
 
 
 
@@ -629,6 +628,8 @@ F = K \frac{qQ}{r^2}
 - K = `9*10^9NM^2/C^2` on konstant
 
 Laengu ühik on kulon - 1C
+
+
 
 ### Laengu jäävuse seadus
 

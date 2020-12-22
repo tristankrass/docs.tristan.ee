@@ -78,7 +78,8 @@ Execute a sequence of changes | `qx{changes}q` | `@x` | `u` |
 `<C-u>` | Delete back to start of line |
 `K` | Look up the man pages under the cursor |
 `J` | Join the current and the next lines togehter |
-
+`r` | Replace the word under cursor | 
+`R` | Go to replace mode | 
 
 
 ## Inserting unusuual Characters
@@ -105,6 +106,22 @@ Inside insert mode press `<C-v>u00bf`will insert `¿`
 `V` | Enable line-wise Visual mode |
 `<C-v>` | Enable block-wise Visual mode |
 `gv` | Reselecet the last visual selection |
+
+
+## Command line mode
+
+
+| Command | Effect |
+--- | --- | 
+`:6t.` | Copy line 6 to just below the current line |
+`:6t.` | Copy the current line to just below line 6 |
+`:t.` | Duplicate the current line (similar to Normal mode yyp) |
+`:t$` | Copy line 6 to just below the current line |
+`:’<,’>t0` | Copy the visually selected lines to the start of the file | 
+`q/` | Open the command-line window with history of searches | 
+`q:` | Open the command-line window with history of Ex commands | 
+`crtl-f` | Switch from Command-Line mode to the command-line window | 
+
 
 
 
